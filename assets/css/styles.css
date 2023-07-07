@@ -1,0 +1,47 @@
+:root {
+  --darkblue: #17223B;
+  --lightblue: #5294EB;
+  --gray : #E8EEF2;
+  --yellow: #FFE74C;
+  --lightbrown : #D6C9C9;
+
+}
+
+*{
+  margin: 0;
+  /* padding: 0; */
+}
+
+header{
+  background: var(--darkblue);
+  color: var(--lightbrown);
+
+}
+
+footer{
+  text-align: center;
+}
+
+footer picture img{
+  margin: 10px;
+}
+
+footer picture:nth-child(1) img{
+  inline-size: 419px;
+  block-size: 353px;
+}
+
+footer picture:nth-child(2) img {
+  inline-size: 419px;
+  block-size: 465px;
+}
+
+footer picture:nth-child(3) img {
+  inline-size: 419px;
+  block-size: 465px;
+}
+
+footer picture:nth-child(4) img {
+  inline-size: 419px;
+  block-size: 465px;
+}
