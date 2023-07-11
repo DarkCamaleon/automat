@@ -10,12 +10,65 @@
 *{
   margin: 0;
   /* padding: 0; */
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
   background: var(--darkblue);
   color: var(--lightbrown);
+  display: flex;
+  justify-content: flex-end;
+  block-size: 48px;
+  padding-block: 8px;
+}
 
+.header-content{
+  margin-inline: 22px;
+  font-size: 14px;
+}
+
+.hero{
+  block-size: 792px;
+  background-color: rgba(23, 34, 59, 0.57);
+  background-blend-mode: multiply;
+  background-image: url("../img/hero/iStock-1275786906.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  padding-inline: 88px;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ol {
+  display: flex;
+  align-items: center;
+}
+nav ol li{
+  margin-inline: 16px;
+}
+
+
+.hero-container{
+  color: white;
+}
+
+.descripcion{
+  inline-size: 862px;
+
+}
+
+.descripcion h1{
+  font-size: 60px;
+}
+
+header p{
+  display: inline-block;
 }
 
 footer{
