@@ -22,6 +22,7 @@ header{
   padding-block: 8px;
 }
 
+
 .header-content{
   margin-inline: 22px;
   font-size: 14px;
@@ -45,14 +46,19 @@ nav{
   justify-content: space-between;
 }
 
-nav ol {
+nav ul {
   display: flex;
   align-items: center;
+  list-style: none;
 }
-nav ol li{
+nav ul li{
   margin-inline: 16px;
 }
 
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
 
 .hero-container{
   color: white;
@@ -67,6 +73,144 @@ nav ol li{
   font-size: 60px;
 }
 
+.descripcion ul{
+  padding: 0;
+}
+.descripcion ul li {
+  list-style: none;
+}
+
+.descripcion ul img {
+  margin-inline-end: 16px;
+  margin-block: 16px;
+}
+
+.descripcion button {
+  margin-block-start: 60px;
+  background: var(--lightblue);
+  border-radius: 4px;
+  padding: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.service{
+  margin-block: 64px;
+  margin-inline-start: 88px;
+}
+
+.service-container{
+  display: flex;
+}
+
+.service-content {
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.service-content .contenedor-img{
+  background-color: #17223B;
+  block-size: 48px;
+  inline-size: 48px;
+  border-radius: 100px;
+  text-align: center;
+  margin-block-end: 36px;
+
+}
+
+.contenedor-img img{
+  padding-block-start: 11px;
+}
+
+.presupuesto {
+  margin-block-end: 74px;
+  text-align: center;
+}
+
+.presupuesto > p{
+  font-size: 34px;
+}
+
+
+.historia .exito{
+  writing-mode: vertical-lr;
+  /* text-orientation: upright; */
+  transform: rotate(180deg);
+
+}
+
+.historia .exito p{
+  background-color: #17223B;
+  color: white;
+  display: inline-block;
+  padding-inline: 36px;
+  padding-block: 5px;
+  font-size: 24px;
+  block-size: 40px;
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 49px;
+}
+
+.form-content{
+  background: #17223B;
+  color: white;
+
+}
+
+.proyect-content{
+  display: flex;
+}
+
+.proyect-content h2 {
+  color: #5294EB;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: start;
+
+}
+
+.proyect-content p{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  text-align: start;
+}
+
+.proyect-content p + p{
+
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 14px;
+  text-align: start;
+}
+
+
+
+.form-content input{
+  display: block;
+  inline-size: 522px;
+}
+
+.form-content textarea{
+  inline-size: 522px;
+  resize: none;
+}
+
+.clientes {
+  background: #17223B;
+  color: white;
+  text-align: center;
+  padding: 24px;
+
+}
+
+.clientes img{
+  margin-inline-end: 53px;
+}
+
 header p{
   display: inline-block;
 }
@@ -76,7 +220,7 @@ footer{
 }
 
 footer picture img{
-  margin: 10px;
+  margin: 5px;
 }
 
 footer picture:nth-child(1) img{
@@ -98,3 +242,4 @@ footer picture:nth-child(4) img {
   inline-size: 419px;
   block-size: 465px;
 }
+
